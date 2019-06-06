@@ -3,6 +3,10 @@
 <head>
 		<title>Layout</title>
 		<style>
+			body
+			{
+				overflow:scroll;
+			}
 			.navigation
 			{
 				max-width:100%
@@ -12,7 +16,7 @@
 			}
 			.logo
 			{
-				margin:20px;
+				margin:20px 20px 20px 50px;
 				float:left;
 			}
 			ul
@@ -52,15 +56,66 @@
 			}*/
 			section
 			{
-				overflow:hidden;
 				max-width:100%;
 				width:100%;
-				background-color:gray;
+				/*background-color:gray;*/
+				height:500px;
+				overflow:hidden;
+				/*border: 2px solid black;*/
+				
 			}
-			.Turn			{
+			.Turn p
+			{
 				font-size: 45px;
-				font-style:Poppins;
+				font-family:"Comic Sans MS", cursive, sans-serif;
 				font-weight:bold;
+				font-style:normal;
+				margin-top:150px;
+				margin-bottom:0px;
+				margin-left:75px;
+				/*line-height:20px;*/
+				width:50%;
+				
+				
+			
+			}
+			.Turn2 p
+			{
+				font-size:30px;
+				font-family:"Comic Sans MS", cursive, sans-serif;
+				font-weight:bold;
+				color:rgba(0, 0, 0, 0.71);
+				margin-left:80px;
+				margin-top:10px;
+				width:50%;
+			}
+			.let
+			{
+				border-radius: 30px;
+				padding:10px 30px;
+				margin-left:75px;
+				background-color:rgb(255, 58, 45);
+				color:rgb(255, 255, 255);
+				font-weight:bold;
+				font-family:Roboto;
+				font-size:17px;
+				border-color:rgb(255, 58, 45);
+				shadow:none;
+			}
+			.let:hover
+			{
+				background-color:rgb(255,204,0);
+				border-color:rgb(255,204,0);
+				color:black;
+			}
+			section img
+			{
+				float:right;
+				margin-top:50px;
+				height:82%;
+				width:43%;
+				margin-right:20px;
+			
 			}
 		</style>
 </head>
@@ -74,9 +129,22 @@
 			<li><a href="#Start">Start Project</a></li></ul>
 		</ul>
 	</div>
+	
 	<section>
-		<article><p class="Turn">Turn Your Great Idea</p><p>into the Next Big Thing</p></article>
+	<img src="process.png"/>
+		<article class="Turn"><p>Turn Your Great Idea</p>
+			
+		</article>
+		<article class="Turn2"><p>into the next big thing</p>
+		
+		</article>
+		<input type="button" value="Let's Talk" class="let"/>
+		
+		<!--<aside>
+		
+		</aside>-->
 	</section>
+	
 	<!--<footer>All right reserved</footer>-->
 </body>
 </html>
