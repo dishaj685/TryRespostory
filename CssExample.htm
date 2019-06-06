@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Layout</title>
+		<style>
+			.navigation
+			{
+				max-width:100%
+				width:100%;
+				overflow:hidden;
+				position:sticky;
+			}
+			.logo
+			{
+				margin:20px;
+				float:left;
+			}
+			ul
+			{
+				list-style-type:none;
+				margin:0px;
+				padding:0px;
+				overflow:hidden;
+			}
+			.menu
+			{
+				margin-left:60%;
+				/*border: 2px solid black;*/
+				margin-top:30px;
+			}
+			.menu li
+			{
+				display:inline-block;
+				
+				/*float:right;*/
+				padding: 14px 16px;
+			}
+			.menu li a 
+			{
+				text-decoration:none;
+				color:#18152c;/*#f68819*/
+				font-weight:bold;
+			}
+			.menu li a:hover,active	
+			{
+				color:#f68819;
+			}
+			/*footer
+			{
+				margin-bottom:	0px;
+				border:2px solid black;
+			}*/
+			section
+			{
+				overflow:hidden;
+				max-width:100%;
+				width:100%;
+				background-color:gray;
+			}
+			.Turn			{
+				font-size: 45px;
+				font-style:Poppins;
+				font-weight:bold;
+			}
+		</style>
+</head>
+<body>
+	<div class="navigation">
+		<img src="logo.png" height="50" class="logo"/>
+			<ul class="menu">
+			<li><a href="#service">Service</a></li>
+			<li><a href="#Portfolio">Portfolio</a></li>
+			<li><a href="#About us">About Us</a></li>
+			<li><a href="#Start">Start Project</a></li></ul>
+		</ul>
+	</div>
+	<section>
+		<article><p class="Turn">Turn Your Great Idea</p><p>into the Next Big Thing</p></article>
+	</section>
+	<!--<footer>All right reserved</footer>-->
+</body>
+</html>
